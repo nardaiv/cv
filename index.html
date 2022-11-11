@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #404258;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        main{
+            margin: 10vh;
+            background-color: white;
+            max-width: 1200px;
+        }
+
+        article{
+            width: 85%;
+            margin: 0 auto;
+            padding: 20px 30px;
+            border-bottom: solid black 3px;
+        }
+
+        article>ul{
+            padding-left: 30px;
+        }
+
+        article>h3{
+            margin-bottom: 10px;
+        }
+
+        article:last-child{
+            border: none;
+        }
+        p>a{
+            color: #6B728E;
+        }
+        p>a:hover{
+            color: aqua;
+        }
+
+        @media  only screen and (max-width:1024px) {
+            main{
+                margin: 5vw;
+
+            }
+        }
+
+        
+        @media  only screen and (max-width:768px) {
+            main{
+                margin: 3vw;
+
+            }
+            article{
+                width: 80%;
+                padding: 40px 2vw;
+            }
+            img{
+                width: 70vw;
+                max-width: 300px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <article align="center">
+            <img src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg" width="300px" alt="photoprofile">
+            <h3>Narda</h3>
+
+            <p><a href="tel:08888888888">08888888888</a> | <a href="mailto:example@example.com"> example@example.com</a> | Bandung, Jawa Barat </p>
+            <p> <a href="https://linkedin.com" target="_blank">linkedin.com</a> </p>
+        </article>
+
+        <article>
+            <h3>Tentang saya</h3>
+            <p>Adalah seorang siswa yang masih bersekolah di SMA. Saya tinggal di kota Bandung. Saya masih memerlukan kegiatan pembelajaran yang ada di sekolah. Sekolah di Indonesia Pulang saat siang menuju sore hari. Hal Ini berlaku untuk sekolah menengah. Di Kota Bandung tentunya banyak sekolah. Hal ini dikarenakan banyak anak-anak yang masih perlu mendapatkan pembelajaran. </p>
+        </article>
+
+        
+        <article>
+            <h3>Pengalaman Organisasi</h3>
+            <p>Anggota Ekskul</p>
+        </article>
+
+        <article>
+            <h3>Pendidikan</h3>
+            <ul>
+                <li>Tk</li>
+                <li>SD</li>
+                <li>SMP</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Refrensi:</h3>
+            <p> google</p>
+        </article>
+    </main>
+</body>
+</html>
